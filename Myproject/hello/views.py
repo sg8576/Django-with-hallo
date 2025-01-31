@@ -10,3 +10,5 @@ def harry(request):
     return HttpResponse("Hello, Harry")
 def mike(request):
     return HttpResponse("Hello, Mike")
+def greet(request, name):
+    return HttpResponse("Hello, {name}")
